@@ -1,2 +1,30 @@
 vi:
   hello: "Xin chào"
+  about: "Về chúng tôi"
+  help: "Trợ giúp"
+  home: "Trang chủ"
+  the : ""
+  book : "sách"
+  and : "và"
+  title_book: "Hướng dẫn Ruby on Rails"
+  title_book_sample_app: "Hướng dẫn Ruby on Rails ứng dụng mẫu"
+  sample_app: "Ứng dụng mẫu"
+  ror_help_page: "Trang trợ giúp Rails Tutorial"
+  le : "Học đủ"
+
+  layout:
+
+  static_pages:
+    home:
+      text1: "Đây là trang chủ cho :"
+    help:
+      text1: "Nhận sự giúp đỡ từ Ruby on Rails Tutorial từ"
+      text2: "Để nhận sự giúp đỡ từ ứng dụng mẫu này , hãy nhìn"
+      text3: "sách hướng dẫn Ruby on Rails"
+    about:
+      text1: "gia đình của hướng dẫn"
+      text2: "là"
+      text3: "loạt phim truyền hình"
+      text4: "dạy phát triển web với"
+      text5: "Chương 3. HẦU HẾT LÀ CÁC TRANG TĨNH"
+      text6: "một phần của"
