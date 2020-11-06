@@ -1,14 +1,14 @@
 <% provide :title, t("about") %>
 <h1><%= t "about" %></h1>
 <p>
-  <%= t "the"%>
-  <%= link_to t("title_book"),Settings.title_book_link
-  %>, <%= t".text6" %>
+  <%= t "the" %>
+  <%= link_to t("title_book"),Settings.title_book_link %>,
+  <%= t ".part_of_the" %>
   <%= link_to  t("le"), Settings.learn_enough_link %>
-  <% t ".text1" %>, <%= t ".text2" %>
+  <%= t ".family_of_tutorial_is_a" %>
   <%= link_to  t("book"), Settings.title_book_link_book %>
   <%= t "and" %>
-  <%= link_to  t(".text3"), Settings.screencast_link%>
-  <%= t ".text4" %> 164 <%= t".text5" %>
-  <%= link_to "Ruby on Rails", Settings.title_book_link %>
+  <%= link_to  t(".screencast_series"), Settings.screencast_link %>
+  <%= t ".to_teach_web_development_with_164_chapter3" %>
+  <%= link_to t("ror"), Settings.title_book_link %>
 </p>
