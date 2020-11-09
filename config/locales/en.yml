@@ -1,33 +1,30 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  hello: "hello"
+  about: "About"
+  help: "help"
+  home: "home"
+  the : "The"
+  book : "book"
+  and : "and"
+  title_book: "Ruby on Rails Tutorial"
+  title_book_sample_app: "Ruby on Rails Tutorial sample app"
+  sample_app: "sample app"
+  ror_help_page: "Rails Tutorial help page"
+  le : "Learn Enough"
+
+  layout:
+
+  static_pages:
+    home:
+      text1: "This is home page for :"
+    help:
+      text1: "Get help on the Ruby on Rails Tutorial at the"
+      text2: "To get help on this sample app, see the"
+      text3: "Ruby on Rails Tutorial book"
+    about:
+      text1: "family of tutorials"
+      text2: "is a"
+      text3: "screencast series"
+      text4: "to teach web development with"
+      text5: "CHAPTER 3. MOSTLY STATIC PAGES"
+      text6: "part of the"
