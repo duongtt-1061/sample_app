@@ -3,9 +3,9 @@ en:
   about: "About"
   help: "help"
   home: "home"
-  the : "The"
-  book : "book"
-  and : "and"
+  the: "The"
+  book: "book"
+  and: "and"
   title_book: "Ruby on Rails Tutorial"
   title_book_sample_app: "Ruby on Rails Tutorial sample app"
   sample_app: "sample app"
@@ -13,6 +13,14 @@ en:
   le: "Learn Enough"
   ror_tutorial_book: "Ruby on Rails Tutorial book"
   ror: "Ruby on Rails"
+  contact: "Contact"
+  by: "by"
+  news: "News"
+  login: "Log in"
+  sign_up_now: "Sign up now!"
+  sign_up: "Sign up"
+  alt_rails_logo: "Rails logo"
+
   layout:
 
   static_pages:
@@ -27,3 +35,10 @@ en:
       to_teach_web_development_with_164_chapter3:
         "to teach web development with 164 CHAPTER 3. MOSTLY STATIC PAGES"
       part_of_the: "part of the"
+    contact:
+      contact_page: "contact page"
+      contact_ror_about_sample_app_at:
+        "Contact the Ruby on Rails Tutorial about the sample app at the"
+  users:
+    new:
+      description_for_sign_up_page: "This will be a signup page for new users"

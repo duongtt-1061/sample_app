@@ -3,16 +3,24 @@ vi:
   about: "Về chúng tôi"
   help: "Trợ giúp"
   home: "Trang chủ"
-  the : ""
-  book : "sách"
-  and : "và"
+  the: ""
+  book: "sách"
+  and: "và"
   title_book: "Hướng dẫn Ruby on Rails"
   title_book_sample_app: "Hướng dẫn Ruby on Rails ứng dụng mẫu"
   sample_app: "Ứng dụng mẫu"
   ror_help_page: "Trang trợ giúp Rails Tutorial"
+  le: "Học đủ"
   ror_tutorial_book: "Sách hướng dẫn Ruby on Rails"
-  le : "Học đủ"
   ror: "Ruby on Rails"
+  contact: "Liên hệ"
+  by: "bởi"
+  news: "Tin tức"
+  login: "Đăng nhập"
+  sign_up_now: "Đăng ký ngay!"
+  sign_up: "Đăng ký"
+  alt_rails_logo: "Rails logo"
+
   layout:
 
   static_pages:
@@ -28,3 +36,9 @@ vi:
       to_teach_web_development_with_164_chapter3:
         "dạy phát triển web với 164 Chương 3. HẦU HẾT LÀ CÁC TRANG TĨNH"
       part_of_the: "một phần của"
+    contact:
+      contact_page: "trang liên hệ"
+      contact_ror_about_sample_app_at: "Liên hệ về ứng dụng mẫu tại"
+  users:
+    new:
+      description_for_sign_up_page: "Đây là trang đăng ký mới người dùng"
