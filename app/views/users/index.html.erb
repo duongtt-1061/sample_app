@@ -1,0 +1,21 @@
+<% provide :title, t("list_users") %>
+<h1><%= t "list_users" %></h1>
+<div class="row">
+  <div class="container">
+  <table>
+    <thead>
+      <tr>
+        <td><%= t "id" %></td>
+        <td><%= t "name" %></td>
+        <td><%= t "email" %></td>
+      </tr>
+    </thead>
+    <tbody>
+      <%= render @users %>
+    </tbody>
+  </table>
+    <div>
+      <%= paginate @users %>
+    </div>
+  </div>
+</div>
