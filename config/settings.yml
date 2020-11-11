@@ -6,3 +6,10 @@ ror_help_page_link: "https://www.railstutorial.org/help"
 contact_page_link: "https://www.railstutorial.org/contact"
 michael_hart_link: "https://www.michaelhartl.com/"
 news_link: "https://news.railstutorial.org/"
+
+validates:
+  user:
+    max_length_name_user: 50
+    max_length_email_user: 255
+    min_length_pass_user: 6
+    valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
