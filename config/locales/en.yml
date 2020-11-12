@@ -1,4 +1,7 @@
 en:
+  previous_page: "Previous page"
+  next_page: "Next page"
+  list_users: "List Users"
   hello: "hello"
   about: "About"
   help: "help"
@@ -20,6 +23,12 @@ en:
   sign_up_now: "Sign up now!"
   sign_up: "Sign up"
   alt_rails_logo: "Rails logo"
+  name: "Name"
+  email: "Email"
+  password: "Password"
+  confirmation: "Confirmation"
+  create_my_account: "Create my account"
+  welcome_to_sample_app: "Welcome to Sample App!"
 
   layout:
 
@@ -42,3 +51,6 @@ en:
   users:
     new:
       description_for_sign_up_page: "This will be a signup page for new users"
+  shared:
+    error_messages:
+      the_form_contains: "The form contains"

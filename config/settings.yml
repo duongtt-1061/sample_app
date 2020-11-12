@@ -13,3 +13,9 @@ validates:
     max_length_email_user: 255
     min_length_pass_user: 6
     valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+
+gravatar:
+  size: 80
+
+pagination:
+  users_per_page: 5
