@@ -35,6 +35,16 @@ en:
   account: "Account"
   profile: "Profile"
   settings: "Settings"
+  change: "change"
+  profile_updated: "Profile updated"
+  profile_update_failed: "Profile update failed"
+  something_wrong: "Something wrong"
+  you_dont_have_permision: "You don't have permission"
+  please_log_in: "Please log in"
+  action: "Action"
+  delete_user: "Delete User"
+  you_sure: "You sure?"
+  user_deleted: "User deleted"
 
   static_pages:
     home:
@@ -55,6 +65,11 @@ en:
   users:
     new:
       description_for_sign_up_page: "This will be a signup page for new users"
+    edit:
+      edit_user: "Edit user"
+      update_your_profile: "Update your profile"
+      save_changes: "Save changes"
+
   shared:
     error_messages:
       the_form_contains: "The form contains"
