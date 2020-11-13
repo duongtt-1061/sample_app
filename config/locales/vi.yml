@@ -61,3 +61,4 @@ vi:
   sessions:
     create:
       invalid_email_and_password: "Sai email hoặc mật khẩu"
+      remember_me: "Ghi nhớ cho lần đăng nhập lần sau"
