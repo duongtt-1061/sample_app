@@ -29,8 +29,12 @@ en:
   confirmation: "Confirmation"
   create_my_account: "Create my account"
   welcome_to_sample_app: "Welcome to Sample App!"
-
-  layout:
+  new_user: "New user"
+  sign_up_now: "Sign up now"
+  list_users: "Users"
+  account: "Account"
+  profile: "Profile"
+  settings: "Settings"
 
   static_pages:
     home:
@@ -54,3 +58,7 @@ en:
   shared:
     error_messages:
       the_form_contains: "The form contains"
+
+  sessions:
+    create:
+      invalid_email_and_password: "Invalid email/password combination"
