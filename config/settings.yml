@@ -8,6 +8,7 @@ michael_hart_link: "https://www.michaelhartl.com/"
 news_link: "https://news.railstutorial.org/"
 remember_checked: "1"
 gravatar_link: "https://gravatar.com/emails"
+status_activated: 1
 
 validates:
   user:

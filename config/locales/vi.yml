@@ -45,6 +45,13 @@ vi:
   delete_user: "Xóa người dùng"
   you_sure: "Bạn chắc chắn chứ?"
   user_deleted: "Đã xóa người dùng"
+  hi: "Xin chào"
+  check_mail_to_activate: "Kiểm tra email của bạn để kích hoạt tài khoản."
+  account_activated: "Xác thực tài khoản thành công"
+  invalid_activation_link: "Liên kết xác thực không đúng"
+  account_not_activated: "Tài khoản chưa được kích hoạt,
+    Kiểm tra email của bạn để nhận link kích hoạt tài khoản"
+  user_not_found: "Không tìm thấy người dùng"
 
   static_pages:
     home:
@@ -69,6 +76,8 @@ vi:
       edit_user: "Edit user"
       update_your_profile: "Chỉnh sửa hồ sơ của bạn"
       save_changes: "Lưu thay đổi"
+    create:
+      create_account_failed: "Tạo người dùng thất bại"
 
   shared:
     error_messages:
@@ -78,3 +87,11 @@ vi:
     create:
       invalid_email_and_password: "Sai email hoặc mật khẩu"
       remember_me: "Ghi nhớ cho lần đăng nhập lần sau"
+
+  user_mailer:
+    account_activation:
+      account_activation: "Xác thực tài khoản"
+      activation: "Xác thực"
+      title_mail_account_activation:
+        "Chào mừng bạn đến với ứng dụng mẫu!
+         Bấm vào liên kết bên dưới để xác thực tài khoản của bạn"
