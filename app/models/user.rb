@@ -19,7 +19,8 @@ class User < ApplicationRecord
   validates :password, presence: true,
                   length: {
                     minimum: Settings.validates.user.min_length_pass_user
-                  }
+                  },
+                  allow_nil: true
 
   class << self
     def digest string

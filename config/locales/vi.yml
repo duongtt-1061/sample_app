@@ -35,6 +35,16 @@ vi:
   account: "Tài khoản"
   profile: "Hồ sơ"
   settings: "Cài đặt"
+  change: "Thay đổi"
+  profile_updated: "Cập nhật hồ sơ thành công"
+  profile_update_failed: "Cập nhật hồ sơ thất bại"
+  something_wrong: "Đã xảy ra lỗi"
+  you_dont_have_permision: "Bạn không có quyền thực hiện hành động này"
+  please_log_in: "Vui lòng đăng nhập"
+  action: "Hành động"
+  delete_user: "Xóa người dùng"
+  you_sure: "Bạn chắc chắn chứ?"
+  user_deleted: "Đã xóa người dùng"
 
   static_pages:
     home:
@@ -55,9 +65,15 @@ vi:
   users:
     new:
       description_for_sign_up_page: "Đây là trang đăng ký mới người dùng"
+    edit:
+      edit_user: "Edit user"
+      update_your_profile: "Chỉnh sửa hồ sơ của bạn"
+      save_changes: "Lưu thay đổi"
+
   shared:
     error_messages:
       the_form_contains: "Biểu mẫu chứa"
+
   sessions:
     create:
       invalid_email_and_password: "Sai email hoặc mật khẩu"

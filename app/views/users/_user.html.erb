@@ -2,4 +2,8 @@
   <td><%= user.id %></td>
   <td><%= user.name %></td>
   <td><%= user.email %></td>
+  <% if current_user.admin? && !current_user?(user) %>
+    <td><%= link_to t("delete_user"), user, method: :delete,
+                                          data: {confirm: t("you_sure")} %></td>
+  <% end %>
 </tr>
