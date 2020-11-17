@@ -10,6 +10,7 @@ remember_checked: "1"
 gravatar_link: "https://gravatar.com/emails"
 status_activated: 1
 password_reset_hours_ago: 2
+size_ava: 30
 
 validates:
   user:

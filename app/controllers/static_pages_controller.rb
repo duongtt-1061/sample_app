@@ -3,7 +3,7 @@ class StaticPagesController < ApplicationController
     return unless logged_in?
 
     @micropost = current_user.microposts.build
-    @feed_items = current_user.feed(current_user.id)
+    @feed_items = current_user.feed
                               .includes(:user)
                               .includes(image_attachment: :blob)
                               .order_desc
