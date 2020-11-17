@@ -3,6 +3,7 @@ class User < ApplicationRecord
   USER_PERMIT_FOR_RESET_PW = %i(password password_confirmation).freeze
 
   attr_accessor :remember_token, :activation_token, :reset_token
+  has_many :microposts, dependent: :destroy
 
   validates :name, presence: true,
                   length: {
@@ -78,6 +79,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.password_reset_hours_ago.hours.ago
+  end
+
+  def feed user_id
+    Micropost.feed_for_user user_id
   end
 
   private

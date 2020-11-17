@@ -14,7 +14,18 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
-  def show; end
+  def show
+    if current_user? @user
+      @microposts = @user.microposts
+                         .includes(image_attachment: :blob)
+                         .order_desc
+                         .page(params[:page])
+                         .per Settings.pagination.posts_per_page
+    else
+      flash[:info] = t "user_not_found"
+      redirect_to root_path
+    end
+  end
 
   def edit; end
 
