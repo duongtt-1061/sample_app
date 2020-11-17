@@ -45,6 +45,13 @@ en:
   delete_user: "Delete User"
   you_sure: "You sure?"
   user_deleted: "User deleted"
+  hi: "Hi"
+  check_mail_to_activate: "Please check your email to activate your account."
+  account_activated: "Account activated"
+  invalid_activation_link: "Invalid activation link"
+  account_not_activated: "Account not activated,
+    Check your email for the activation link"
+  user_not_found: "User not found"
 
   static_pages:
     home:
@@ -69,6 +76,8 @@ en:
       edit_user: "Edit user"
       update_your_profile: "Update your profile"
       save_changes: "Save changes"
+    create:
+      create_account_failed: "Create user failed"
 
   shared:
     error_messages:
@@ -78,3 +87,11 @@ en:
     create:
       invalid_email_and_password: "Invalid email/password combination"
       remember_me: "Remember me on this computer"
+
+  user_mailer:
+    account_activation:
+      account_activation: "Account activation"
+      activation: "Activation"
+      title_mail_account_activation:
+        "Welcome to the Sample App!
+         Click on the link below to activate your account"
