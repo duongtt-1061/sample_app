@@ -1,4 +1,11 @@
 vi:
+  cannot_be_empty: "Không thể để trống"
+  password_has_been_reset: "Mật khẩu đã được tạo lại"
+  password_reset_failed: "Đặt lại mật khẩu thất bại""
+  password_reset_has_expired: "Tạo lại mật khẩu đã hết hạn"
+  password_reset: "Tạo mới mật khẩu"
+  submit: "Gửi"
+  forgot_password: "Quên mật khẩu"
   previous_page: "Trang trước"
   next_page: "Trang tiếp theo"
   list_users: "Danh sách người dùng"
@@ -95,3 +102,17 @@ vi:
       title_mail_account_activation:
         "Chào mừng bạn đến với ứng dụng mẫu!
          Bấm vào liên kết bên dưới để xác thực tài khoản của bạn"
+
+    password_reset:
+      click_link_to_reset_password:
+        "Bấm vào liên kết bên dưới để đặt lại mật khẩu"
+      content_reset_password_view_text: "Liên kết này sẽ hết hạn sau 2 giờ.
+        Nếu bạn không yêu cầu đặt lại mật khẩu,
+        Vui lòng bỏ qua email này và mật khẩu của bạn sẽ không thay đổi."
+
+  password_resets:
+    create:
+      sent_email_reset_password: "Đã gửi email cùng với liên kết đổi mật khẩu"
+      email_not_found: "Địa chỉ email không tìm thấy"
+    edit:
+      update_password: "Cập nhật mật khẩu"

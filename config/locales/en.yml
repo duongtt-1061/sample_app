@@ -1,4 +1,11 @@
 en:
+  cannot_be_empty: "Can't be empty"
+  password_has_been_reset: "Password has been reset"
+  password_reset_failed: "Password reset failed"
+  password_reset_has_expired: "Password reset has expired"
+  password_reset: "Password reset"
+  submit: "Submit"
+  forgot_password: "Forgot password"
   previous_page: "Previous page"
   next_page: "Next page"
   list_users: "List Users"
@@ -95,3 +102,17 @@ en:
       title_mail_account_activation:
         "Welcome to the Sample App!
          Click on the link below to activate your account"
+
+    password_reset:
+      click_link_to_reset_password:
+        "To reset your password click the link below"
+      content_reset_password_view_text: "This link will expire in two hours.
+        If you did not request your password to be reset,
+        please ignore this email and your password will stay as it is."
+
+  password_resets:
+    create:
+      sent_email_reset_password: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+    edit:
+      update_password: "Update password"

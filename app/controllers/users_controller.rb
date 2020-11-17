@@ -35,7 +35,7 @@ class UsersController < ApplicationController
       flash[:info] = t "check_mail_to_activate"
       redirect_to root_path
     else
-      flash[:danger] = t ".create_account_faild"
+      flash[:danger] = t ".create_account_failed"
       render :new
     end
   end
