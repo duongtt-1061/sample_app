@@ -17,9 +17,28 @@ validates:
     max_length_email_user: 255
     min_length_pass_user: 6
     valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  micropost:
+    max_content: 140
+    img_accept: "image/jpeg, image/gif, image/png"
 
 gravatar:
   size: 80
 
 pagination:
   users_per_page: 5
+  posts_per_page: 10
+  feed_per_page: 10
+
+order_by:
+  created_microposts: "desc"
+
+resize:
+  post_in_feed:
+    width: 500
+    length: 500
+    gravatar: 50
+
+content_type_image: "image/jpeg image/gif image/png)"
+
+size_of_file:
+  image: 5

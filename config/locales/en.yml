@@ -1,4 +1,12 @@
 en:
+  error: "error"
+  danger_size_image_too_large: "Should be less than 5MB"
+  danger_format_image: "Must be a valid image format"
+  delete: "Delete"
+  ago: "ago"
+  posted: "Posted"
+  microposts: "Microposts"
+  micropost: "Micropost"
   cannot_be_empty: "Can't be empty"
   password_has_been_reset: "Password has been reset"
   password_reset_failed: "Password reset failed"
@@ -59,10 +67,12 @@ en:
   account_not_activated: "Account not activated,
     Check your email for the activation link"
   user_not_found: "User not found"
+  time_ago_in_word: "Posted %{count} ago"
 
   static_pages:
     home:
       this_is_home_page_for: "This is home page for :"
+      micropost_feed: "Micropost Feed"
     help:
       get_help_RoR_tutorial_at: "Get help on the Ruby on Rails Tutorial at the"
       get_help_on_this_sample_app: "To get help on this sample app, see the"
@@ -89,6 +99,9 @@ en:
   shared:
     error_messages:
       the_form_contains: "The form contains"
+    micropost_form:
+      compose_new_post: "Compose new post"
+      post: "Post"
 
   sessions:
     create:
@@ -116,3 +129,7 @@ en:
       email_not_found: "Email address not found"
     edit:
       update_password: "Update password"
+
+  errors:
+    messages:
+      file_size_out_of_range: "Maximum file size is 5MB. Please choose a smaller file."

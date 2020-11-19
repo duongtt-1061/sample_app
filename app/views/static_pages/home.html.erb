@@ -1,11 +1,28 @@
-<div class="center jumbotron">
-  <h1><%= t "home" %></h1>
-  <h2>
-    <%= t ".this_is_home_page_for" %>
-    <%= link_to t("title_book"), Settings.title_book_link %>
-    <%= t "sample_app" %>.
-  </h2>
-  <%= link_to t("sign_up_now"), signup_path, class: "btn btn-lg btn-primary" %>
-</div>
-<%= link_to image_tag("rails.svg", alt: t("alt_rails_logo")),
-  Settings.title_book_link , id:"img_logo_rails" %>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t ".micropost_feed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1><%= t "home" %></h1>
+    <h2>
+      <%= t ".this_is_home_page_for" %>
+      <%= link_to t("title_book"), Settings.title_book_link %>
+      <%= t "sample_app" %>.
+    </h2>
+    <%= link_to t("sign_up_now"), signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+  <%= link_to image_tag("rails.svg", alt: t("alt_rails_logo")),
+    Settings.title_book_link , id:"img_logo_rails" %>
+<% end %>

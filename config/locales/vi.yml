@@ -1,7 +1,15 @@
 vi:
+  error: "lỗi"
+  danger_size_image_too_large: "Không được phép quá 5 MB"
+  danger_format_image: "Ảnh không đúng định dạng"
+  delete: "Xóa"
+  ago: "trước"
+  posted: "Đã đăng"
+  microposts: "Bài viết"
+  micropost: "Bài viết"
   cannot_be_empty: "Không thể để trống"
   password_has_been_reset: "Mật khẩu đã được tạo lại"
-  password_reset_failed: "Đặt lại mật khẩu thất bại""
+  password_reset_failed: "Đặt lại mật khẩu thất bại"
   password_reset_has_expired: "Tạo lại mật khẩu đã hết hạn"
   password_reset: "Tạo mới mật khẩu"
   submit: "Gửi"
@@ -59,10 +67,12 @@ vi:
   account_not_activated: "Tài khoản chưa được kích hoạt,
     Kiểm tra email của bạn để nhận link kích hoạt tài khoản"
   user_not_found: "Không tìm thấy người dùng"
+  time_ago_in_word: "Đã đăng %{count} trước"
 
   static_pages:
     home:
       this_is_home_page_for: "Đây là trang chủ cho :"
+      micropost_feed: "Bảng tin bài viết"
     help:
       get_help_RoR_tutorial_at: "Nhận sự giúp đỡ từ Ruby on Rails Tutorial từ"
       get_help_on_this_sample_app:
@@ -89,6 +99,9 @@ vi:
   shared:
     error_messages:
       the_form_contains: "Biểu mẫu chứa"
+    micropost_form:
+      compose_new_post: "Soạn bài viết mới"
+      post: "Đăng bài"
 
   sessions:
     create:
@@ -116,3 +129,7 @@ vi:
       email_not_found: "Địa chỉ email không tìm thấy"
     edit:
       update_password: "Cập nhật mật khẩu"
+
+  errors:
+    messages:
+      file_size_out_of_range: "Ảnh tải lên tối đa 5MB. Vui lòng chọn ảnh khác."
