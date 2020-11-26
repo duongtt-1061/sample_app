@@ -68,6 +68,8 @@ en:
     Check your email for the activation link"
   user_not_found: "User not found"
   time_ago_in_word: "Posted %{count} ago"
+  following: "following"
+  followers: "followers"
 
   static_pages:
     home:
@@ -95,6 +97,12 @@ en:
       save_changes: "Save changes"
     create:
       create_account_failed: "Create user failed"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    show_follow:
+      view_my_profile: "View my profile"
 
   shared:
     error_messages:

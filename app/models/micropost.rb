@@ -12,7 +12,12 @@ class Micropost < ApplicationRecord
                     size: {less_than: Settings.size_of_file.image.megabytes,
                            message: I18n.t("danger_size_image_too_large")}
 
-  scope :feed_for_user, ->(user_id){where user_id: user_id if user_id.present?}
+  scope :feed_for_user, (lambda do |user_id, following_ids|
+    return unless user_id
+
+    following_ids << user_id
+    where("user_id IN (:following_ids)", following_ids: following_ids)
+  end)
   scope :order_desc, ->{order created_at: Settings.order_by.created_microposts}
 
   delegate :name, to: :user

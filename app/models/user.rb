@@ -4,6 +4,16 @@ class User < ApplicationRecord
 
   attr_accessor :remember_token, :activation_token, :reset_token
   has_many :microposts, dependent: :destroy
+  has_many :active_relationships, class_name: Relationship.name,
+                                  foreign_key: :follower_id,
+                                  dependent: :destroy
+
+  has_many :passive_relationships, class_name: Relationship.name,
+                                   foreign_key: :followed_id,
+                                   dependent: :destroy
+
+  has_many :following, through: :active_relationships, source: :followed
+  has_many :followers, through: :passive_relationships, source: :follower
 
   validates :name, presence: true,
                   length: {
@@ -81,8 +91,24 @@ class User < ApplicationRecord
     reset_sent_at < Settings.password_reset_hours_ago.hours.ago
   end
 
-  def feed user_id
-    Micropost.feed_for_user user_id
+  def feed
+    Micropost.feed_for_user id, following_ids
+  end
+
+  def follow other_user
+    following << other_user
+  end
+
+  def unfollow other_user
+    following.delete other_user
+  end
+
+  def following? other_user
+    following.include? other_user
+  end
+
+  def get_user_to_unfollow user_id_followed
+    active_relationships.find_by(followed_id: user_id_followed)
   end
 
   private

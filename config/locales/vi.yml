@@ -68,6 +68,8 @@ vi:
     Kiểm tra email của bạn để nhận link kích hoạt tài khoản"
   user_not_found: "Không tìm thấy người dùng"
   time_ago_in_word: "Đã đăng %{count} trước"
+  following: "đang theo dõi"
+  followers: "người theo dõi"
 
   static_pages:
     home:
@@ -95,6 +97,12 @@ vi:
       save_changes: "Lưu thay đổi"
     create:
       create_account_failed: "Tạo người dùng thất bại"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Hủy theo dõi"
+    show_follow:
+      view_my_profile: "Xem trang cá nhân của tôi"
 
   shared:
     error_messages:
